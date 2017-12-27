@@ -1,4 +1,4 @@
-package com.shanshui.smartcommunity.clients.feign.client.api
+package com.shanshui.smartcommunity.clients
 
 import org.springframework.cloud.netflix.feign.FeignClient
 import org.springframework.web.bind.annotation.PathVariable
