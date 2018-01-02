@@ -20,6 +20,10 @@ public interface UserClient {
     @ResponseBody
     def get(@PathVariable('id') long id)
 
+    @RequestMapping(method = RequestMethod.GET)
+    @ResponseBody
+    def get(@RequestBody List<Long> ids)
+
     /**
      * internal used for services
      * @param id
